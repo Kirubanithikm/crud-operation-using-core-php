@@ -21,7 +21,7 @@ if(isset($connect)) {
                         <td><?php echo $data['name']; ?></td>
                         <td><?php echo $data['description']; ?></td>
                         <td><?php echo $data['price']; ?></td>
-                        <td> <a class="update" href="update.php?id=<?php echo $data['id'] ?>" >Edit</a></td>
+                        <td> <a class="update" href="update.php?id=<?php echo $data['id'] ?>" >Edit</a>&nbsp <a class="delete" href="delete.php?id=<?php echo $data['id'] ?>" >Delete</a> </td>
                     </tr>
                     <?php
                 }
