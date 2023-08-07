@@ -30,3 +30,6 @@ th, td {
 .update {
     color: darkgreen;
 }
+.delete {
+    color: red;
+}
